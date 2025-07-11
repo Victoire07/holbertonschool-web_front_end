@@ -172,6 +172,13 @@ a:active {
     overflow: hidden
 }
 
+.cadre-work .cadre-image {
+    height: 30rem;
+    width: 100rem;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
 .section {
     padding: var(--section-padding);
 }
