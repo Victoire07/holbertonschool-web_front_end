@@ -38,7 +38,7 @@
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
     --section-tagline-margin: 0;
-    --button-display: inline_block;
+    --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
     --button-border: 0.2rem solid var(--color-primary);
     --button-color: var(--color-black);
@@ -104,9 +104,8 @@ a:active {
     color: var(--button-hover-color);
     background-color: var(--button-hover-background);
     text-decoration: var(--button-hover-text-decoration);
-
-
 }
+
 .visually-hidden {
     display: none;
 }
