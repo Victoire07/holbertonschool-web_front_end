@@ -199,6 +199,25 @@ a:active {
     position: relative;
 }
 
+.card-work .card-title a {
+    display: block;
+    text-decoration: none;
+    padding: 45%;
+}
+
+.card-work .card-title a::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: "";
+}
+
+.card-work:hover .card-title {
+    opacity: 1;
+}
+
 .section {
     padding: var(--section-padding);
 }
