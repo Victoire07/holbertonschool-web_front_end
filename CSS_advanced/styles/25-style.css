@@ -98,6 +98,13 @@ a:active {
     font-size: var(--button-font-size);
     color: var(--button-color);
     text-decoration: var(--button-text-decoration);
+}
+
+.button:hover {
+    color: var(--button-hover-color);
+    background-color: var(--button-hover-background);
+    text-decoration: var(--button-hover-text-decoration);
+
 
 }
 .visually-hidden {
